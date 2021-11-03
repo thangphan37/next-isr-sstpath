@@ -1,5 +1,5 @@
-import {getJokeData, getJokesData} from '../../no-isr/fallback-false/[id]'
-import type {Joke} from '../../no-isr/fallback-false/[id]'
+import {getJokesData, getJokeData} from '../../../utils/joke'
+import type {Joke} from '../../../utils/joke'
 
 function Joke({joke}: {joke: Joke}) {
   return <pre>{JSON.stringify(joke)}</pre>
